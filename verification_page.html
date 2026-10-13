@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KabadGo - Login</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+        
+    <style>
+        /* Reset */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Base */
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #EDF9E0;
+            color: #263C20;
+            min-height: 100vh;
+            padding: 40px 20px;
+        }
+
+        /* Header */
+        .header {
+            margin: 50px auto 0;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: clamp(28px, 4vw, 46px);
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+
+        .header h3 {
+            font-weight: 300;
+        }
+
+        /* Phone number input */
+        .contact_number {
+            display: flex;
+            justify-content: center;
+            align-items: stretch;
+            gap: 28px;
+            max-width: 400px;
+            margin: 55px auto 0;
+            border-radius: 10px;
+            background-color: rgb(251, 254, 249);
+        }
+
+        .contact_number input {
+            width: 100%;
+            padding: 14px 16px;
+            border: none;
+            border-radius: 10px;
+            background: transparent;
+            font-family: inherit;
+            font-size: 16px;
+            color: inherit;
+            outline: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main_container">
+
+        <div class="header">
+            <h1>Welcome!</h1>
+            <h3>Login to continue</h3>
+        </div>
+
+        <div class="contact_number">
+            <input type="text" placeholder="+977 9800000000">
+        </div>
+
+    </div>
+</body>
+</html>
